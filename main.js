@@ -1,5 +1,5 @@
 const myCodeImmersivesObj = {
-  wait: 'you object'
+  wait: 'I do not object'
 };
 
 // Part 1 - Adding and changing properties in plain JS.
