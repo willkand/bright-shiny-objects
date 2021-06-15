@@ -164,24 +164,24 @@ test('updateReportCard', function () {
         lowestGrade: 70,
         highestGrade: 96,
         averageGrade: 82,
-        grades: [70, 95, 80]
+        grades: [70, 96, 80]
     };
     expect(updateReportCard(reportCard, 62)).toStrictEqual({
         lowestGrade: 62,
         highestGrade: 96,
-        averageGrade: 76.75,
-        grades: [70, 95, 80, 62]
+        averageGrade: 77,
+        grades: [70, 96, 80, 62]
     });
     reportCard = {
         lowestGrade: 70,
         highestGrade: 96,
         averageGrade: 82,
-        grades: [70, 95, 80]
+        grades: [70, 96, 80]
     };
     expect(updateReportCard(reportCard, 100)).toStrictEqual({
         lowestGrade: 70,
         highestGrade: 100,
-        averageGrade: 86.25,
-        grades: [70, 95, 80, 100]
+        averageGrade: 86.5,
+        grades: [70, 96, 80, 100]
     });
 });
