@@ -1,4 +1,3 @@
-const { test, expect } = require('@jest/globals');
 const { 
     createUser,
     setAge,
@@ -8,7 +7,6 @@ const {
     getDataType,
     addTodo,
     addSong,
-    addGrade,
     updateReportCard
 } = require('./main.js');
 
