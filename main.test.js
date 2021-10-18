@@ -47,13 +47,13 @@ test('fixCar', function () {
         make: 'Ford',
         model: 'Mustang',
         year: 1969,
-        needsMaitenance: true
+        needsMaintenance: true
     };
     expect(fixCar(car)).toStrictEqual({
         make: 'Ford',
         model: 'Mustang',
         year: 1969,
-        needsMaitenance: false
+        needsMaintenance: false
     });
 });
 
